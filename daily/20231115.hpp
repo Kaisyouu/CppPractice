@@ -23,11 +23,3 @@ bool Find(int* matrix, int rows, int columns, int number) {
     return found;
 }
 
-int main() {
-    int a[4][4] = {{1, 2, 8, 9}, {2, 4, 9, 12}, {4, 7, 10, 13}, {6, 8, 11, 15}};
-    int* no_such = nullptr;
-    std::cout << Find(a[0], 4, 4, 7) << std::endl;
-    std::cout << Find(a[0], 4, 4, 3) << std::endl;
-    std::cout << Find(no_such, 4, 4, 3) << std::endl;
-    std::cout << Find(a[0], 0, 1, 3) << std::endl;
-}

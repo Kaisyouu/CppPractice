@@ -1,3 +1,6 @@
+#ifndef LISTNODE_H
+#define LISTNODE_H
+
 #include <iostream>
 
 struct ListNode {
@@ -47,3 +50,6 @@ void Print(ListNode* pHead) {
     }
     std::cout << std::endl;
 }
+
+
+#endif

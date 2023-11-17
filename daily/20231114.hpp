@@ -64,10 +64,3 @@ public:
 private:
     char* m_pData;
 };
-int main() {
-    char str1[] = "hello";
-    CMyString my_str1(str1);
-    CMyString my_str2 = my_str1;
-    cout << my_str1.GetString() << endl;
-    cout << my_str2.GetString() << endl;
-}
